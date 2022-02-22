@@ -170,4 +170,120 @@ we can use any comparison sign:
 
     we use the (JOIN) word to extract the common cells for specific two columns (from two different tables), it is important to place each one
 
+    ---
+
+  - The "INSERT INTO, VALUES" statement
+
+        INSERT INTO table1 (col1, col2, col3) VALUES (val1, val2, val3)
+
+    this will insert a new row in the table and fill its specified columns with the provided values, all required columns must be filled with a suitable values, also number of values must equal number of columns
+
+        INSERT INTO table2 VALUES (val1, val2, val3)
+
+    when we insert in a joined table (suppose table2 is joined with another), we don’t have to specify the columns
+
+    ---
+
+  - The "UPDATE" statement
+
+        UPDATE table1 SET col1=”hello", col4=500 WHERE id=11
+
+    it will update the specified columns with the new values
+
+    ---
+
+  - The "DELETE, FROM" statement
+
+        DELETE FROM table1 WHERE col3<200
+
+    it will delete all the rows which have a value for (col3) less than 200
+
+    ---
+
+  - The "CREATE" statement
+
+        CREATE TABLE IF NOT EXISTS table1 ( 
+        id INTEGER PRIMARY KEY,
+        col2 TEXT DEFAULT “now”,
+        col3 FLOAT, 
+        );
+
+    it will create a table with 3 columns: id (a primary key integer), col2 (a string with a default value “now”), col3 (a float)
+
+    ---
+
+  - The "DROP" statement
+
+        DROP TABLE IF EXISTS table1
+
+    it will delete the whole table
+
+    ---
+
+  - The "ALTER" statement
+
+    we use it to modify the schema itself (its tables and their constraints and data types)
+
+    - The "ADD" statement
+
+            ALTER TABLE table1 ADD col7 INTEGER DEFAULT 0
+
+        this will add a new column (col7) to the table with the type (integer) and has a default value of (0)
+
+        ---
+
+    - The "DROP" statement
+
+            ALTER TABLE table1 DROP col7
+
+        this will delete the whole column (col7)
+
+        ---
+
+    - The "RENAME" statement
+
+            ALTER TABLE table1 RENAME TO table2
+
+        this will rename the whole table to (table2)
+
+        ---
+
+  - Data types in MySQL
+
+    1. INTEGER: an integer value (positive or negative or zero)
+
+    2. BOOLEAN: they represented as an integer value of just 0 or 1
+
+    3. FLOAT: a float value (positive or negative)
+
+    4. DOUBLE: a float value with more capacity (positive or negative)
+
+    5. CHARACTER(num): short strings with a limit of the max characters capacity (num), (longer values may be truncated)
+
+    6. VARCHAR(num_chars): (variable character) strings with a limit of the max characters capacity (num), (longer values may be truncated)
+
+    7. TEXT: strings with an unlimited characters capacity
+
+    8. DATE: a variable with the date as a string 
+
+    9. DATETIME: a variable with the date and the time as a string
+
+    10. BLOB: binary data
+
+    ---
+
+  - Constraints
+
+    1. PRIMARY KEY : this means that the values in this column are unique, and each value can be used to identify a single row in this table
+
+    2. AUTOINCREMENT : only for integer values, this means that the value is automatically filled in and incremented with each row insertion
+
+    3. UNIQUE : this means that the values in this column have to be unique, so you can't insert another row with the same value in this column as another row in the table, it differs from the PRIMARY KEY in that it doesn't have to be a key for a row in the table
+
+    4. NOT NULL : this means that the inserted value cannot be NULL
+
+    5. CHECK (expression) : this allows you to run a more complex expression to test whether the values inserted are valid
+
+    6. FOREIGN KEY : this is a consistency check which ensures that each value in this column corresponds to another value in a column in another table, like if there are two tables, one listing people by ID, and another listing their ages, the FOREIGN KEY can ensure that every row in the ages table corresponds to a valid name in the master people list
+
 ---
