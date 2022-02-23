@@ -1,13 +1,27 @@
 
-# reading-notes
+# Reading Notes - Mustafa Alahasanat
 
 A track for my observations and questions from the reading assignments throughout the ASAC python course.
+
+---
+
+## Code 102 - Intro to Software Development
+
+---
+
+## Code 201 - Foundations of Software Development
+
+---
+
+## Code 301 - Intermediate Software Development
 
 ---
 
 ## Code 401 - Advanced Software Development
 
 - > MySQL notes
+
+    ![finish](./screenshots/finish.png)
 
   - The "USE" statement
   
@@ -30,6 +44,8 @@ A track for my observations and questions from the reading assignments throughou
         SELECT * FROM table1
 
     it opens all columns from a table
+
+    ![Lesson 1](./screenshots/sql1.png)
 
     ---
 
@@ -58,6 +74,8 @@ we can use any comparison sign:
         SELECT * FROM table1 WHERE col1 > “1998-09-24”
 
     it is a filter for date data types, this one display the cells with a date after 24-9-1998 (this is the default format for representing dates in SQL, it takes 4 digits for the year, 2 digits for the month, and 2 for the day)
+
+    ![Lesson 2](./screenshots/sql2.png)
 
     ---
 
@@ -122,9 +140,11 @@ we can use any comparison sign:
 
     cells that have ( m ) as the first character and ( b ) as the sixth one (because we have 4 underscores in between)
 
+    ![Lesson 3](./screenshots/sql3.png)
+
     ---
 
-  - ORDER BY
+  - The "ORDER BY" statement
 
         SELECT * FROM table1 ORDER BY col1 
 
@@ -136,23 +156,27 @@ we can use any comparison sign:
 
         SELECT * FROM table1 ORDER BY col1 DESC
 
-    it will sort the results descendant 
+    it will sort the results descendant
 
     ---
-    
-  - Arithmetic operations 
 
-        SELECT (myGrades + 10) * 100 FROM table1
+  - The "LIMIT, OFFSET"
 
-    it will apply the operation on all the cells in that table and present it as a new untitled table
+        SELECT * FROM table1 LIMIT 5 
 
-        SELECT (myGrades + 10) * 100 AS newGrades FROM table1
+    it will display the first 5 rows from the table
 
-    it will apply the operation and present the results as a new column named (newGrades)
+        SELECT * FROM table1 OFFSET 3 
 
-        SELECT (myGrades + 10) * 100 AS “new grades” FROM table1
+    it will display rows starting from the third one till the end
 
-    if we want to add a space in between the words of the new name (alias), we have to put them inside single or double quotes 
+        SELECT * FROM table1 LIMIT 5 OFFSET 3 
+
+    it will display the first 5 rows from the table starting from the third one (3, 4, 5, 6, 7)
+
+    ![Lesson 4](./screenshots/sql4.png)
+
+    ![Lesson 5](./screenshots/sql5.png)
 
     ---
 
@@ -170,6 +194,8 @@ we can use any comparison sign:
 
     we use the (JOIN) word to extract the common cells for specific two columns (from two different tables), it is important to place each one
 
+    ![Lesson 6](./screenshots/sql6.png)
+
     ---
 
   - The "INSERT INTO, VALUES" statement
@@ -182,6 +208,8 @@ we can use any comparison sign:
 
     when we insert in a joined table (suppose table2 is joined with another), we don’t have to specify the columns
 
+    ![Lesson 13](./screenshots/sql13.png)
+
     ---
 
   - The "UPDATE" statement
@@ -190,6 +218,8 @@ we can use any comparison sign:
 
     it will update the specified columns with the new values
 
+    ![Lesson 14](./screenshots/sql14.png)
+
     ---
 
   - The "DELETE, FROM" statement
@@ -197,6 +227,8 @@ we can use any comparison sign:
         DELETE FROM table1 WHERE col3<200
 
     it will delete all the rows which have a value for (col3) less than 200
+
+    ![Lesson 15](./screenshots/sql15.png)
 
     ---
 
@@ -209,6 +241,8 @@ we can use any comparison sign:
         );
 
     it will create a table with 3 columns: id (a primary key integer), col2 (a string with a default value “now”), col3 (a float)
+
+    ![Lesson 16](./screenshots/sql16.png)
 
     ---
 
@@ -230,6 +264,8 @@ we can use any comparison sign:
 
         this will add a new column (col7) to the table with the type (integer) and has a default value of (0)
 
+        ![Lesson 17](./screenshots/sql17.png)
+
         ---
 
     - The "DROP" statement
@@ -237,6 +273,8 @@ we can use any comparison sign:
             ALTER TABLE table1 DROP col7
 
         this will delete the whole column (col7)
+
+        ![Lesson 18](./screenshots/sql18.png)
 
         ---
 
@@ -247,6 +285,22 @@ we can use any comparison sign:
         this will rename the whole table to (table2)
 
         ---
+
+  - Arithmetic operations
+
+        SELECT (myGrades + 10) * 100 FROM table1
+
+    it will apply the operation on all the cells in that table and present it as a new untitled table
+
+        SELECT (myGrades + 10) * 100 AS newGrades FROM table1
+
+    it will apply the operation and present the results as a new column named (newGrades)
+
+        SELECT (myGrades + 10) * 100 AS “new grades” FROM table1
+
+    if we want to add a space in between the words of the new name (alias), we have to put them inside single or double quotes
+  
+    ---
 
   - Data types in MySQL
 
