@@ -19,7 +19,7 @@ A track for my observations and questions from the reading assignments throughou
 
 ## Code 401 - Advanced Software Development
 
-- > MySQL notes
+- > ## MySQL notes
 
     ![finish](./screenshots/finish.png)
 
@@ -340,8 +340,13 @@ A track for my observations and questions from the reading assignments throughou
     6. FOREIGN KEY : this is a consistency check which ensures that each value in this column corresponds to another value in a column in another table, like if there are two tables, one listing people by ID, and another listing their ages, the FOREIGN KEY can ensure that every row in the ages table corresponds to a valid name in the master people list
 
 ---
+========================================
 
-- > CLI commands
+---
+
+- > ## CLI commands
+
+    ![CLI](./screenshots/cli.png)
 
   - Changing directory:
 
