@@ -31,4 +31,8 @@ A track for my observations and questions from the reading assignments throughou
 
 > [Mindset Notes](./Growth_mindset.md)
 
+### Reading: Class 01
+
+> [Reading: Class 01](./Reading_Class_01.md)
+
 ---
