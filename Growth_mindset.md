@@ -53,7 +53,3 @@ You also have to keep repeating this technique so it sharpens your skills day af
 - For my biases, I have high self-awareness, curiosity, and courage. But still, I shall continue examining where I still have room for improvement.
 
 ---
-
-> [Github page](https://mustfa1999.github.io/reading-notes/)
----
-
