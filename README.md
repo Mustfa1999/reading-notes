@@ -19,20 +19,12 @@ A track for my observations and questions from the reading assignments throughou
 
 ## Code 401 - Advanced Software Development
 
-### MySQL Notes
-
-> [MySQL Notes](./mysql.md)
-
-### CLI Notes
-
-> [CLI Notes](./CLI.md)
-
-### The Growth Mindset
-
-> [Mindset Notes](./Growth_mindset.md)
-
-### Reading: Class 01
-
-> [Reading: Class 01](./Reading_Class_01.md)
+| - Week - | - MD Link - |
+| ----------- | ----------- |
+| Prep-week | [MySQL Notes](./mysql.md) |
+|  | [CLI Notes](./CLI.md) |
+|  | [Mindset Notes](./Growth_mindset.md) |
+| Week 1 | [Reading: Class 01](./Reading_Class_01.md) |
+|  | [Reading: Class 02](./Reading_Class_02.md) |
 
 ---
