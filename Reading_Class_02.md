@@ -1,4 +1,4 @@
-# Reading: Class 02 {#custom-id}
+# Reading: Class 02
 
 > [Back to the main](./README.md)
 

@@ -26,5 +26,7 @@ A track for my observations and questions from the reading assignments throughou
 |  | [Mindset Notes](./Growth_mindset.md) |
 | Week 1 | [Reading: Class 01](./Reading_Class_01.md) |
 |  | [Reading: Class 02](./Reading_Class_02.md) |
+|  | [Reading: Class 03](./Reading_Class_03.md) |
+| Week 2 | --- |
 
 ---
