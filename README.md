@@ -1,5 +1,5 @@
 
-# Reading Notes - Mustafa Alahasanat
+# Reading Notes - Mustafa Alhasanat
 
 A track for my observations and questions from the reading assignments throughout the ASAC python course.
 
@@ -27,6 +27,6 @@ A track for my observations and questions from the reading assignments throughou
 | Week 1 | [Reading: Class 01](./Reading_Class_01.md) |
 |  | [Reading: Class 02](./Reading_Class_02.md) |
 |  | [Reading: Class 03](./Reading_Class_03.md) |
-| Week 2 | --- |
+| Week 2 | [Reading: Class 04](./Reading_Class_04.md) |
 
 ---
