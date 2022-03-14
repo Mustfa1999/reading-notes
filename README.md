@@ -5,18 +5,6 @@ A track for my observations and questions from the reading assignments throughou
 
 ---
 
-## Code 102 - Intro to Software Development
-
----
-
-## Code 201 - Foundations of Software Development
-
----
-
-## Code 301 - Intermediate Software Development
-
----
-
 ## Code 401 - Advanced Software Development
 
 | - Week - | - MD Link - |
@@ -30,5 +18,6 @@ A track for my observations and questions from the reading assignments throughou
 | Week 2 | [Reading: Class 04](./Reading_Class_04.md) |
 | | [Reading: Class 05](./Reading_Class_05_Linked_lists.md) |
 | | [Reading: Class 06](./Reading_Class_06.md) |
+| Week 3 | [Reading: Class 07](./Reading_Class_07.md) |
 
 ---
