@@ -20,5 +20,6 @@ A track for my observations and questions from the reading assignments throughou
 | | [Reading: Class 06](./Reading_Class_06.md) |
 | Week 3 | [Reading: Class 07](./Reading_Class_07.md) |
 | | [Reading: Class 08](./Reading_Class_08.md) |
+| Week 4 | [Reading: Class 09](./Reading_Class_09.md) |
 
 ---
