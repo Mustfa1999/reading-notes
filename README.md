@@ -23,6 +23,6 @@ A track for my observations and questions from the reading assignments throughou
 | Week 4 | [Reading: Class 09](./Reading_Class_09.md) |
 | | [Reading: Class 10](./Reading_Class_10.md) |
 | | [Reading: Class 11](./Reading_Class_11.md) |
-| Week 5 | |
+| Week 5 | [Reading: Class 12](./Reading_Class_12.md) |
 
 ---
