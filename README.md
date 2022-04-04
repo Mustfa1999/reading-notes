@@ -25,5 +25,6 @@ A track for my observations and questions from the reading assignments throughou
 | | [Reading: Class 11](./Reading_Class_11.md) |
 | Week 5 | [Reading: Class 12](./Reading_Class_12.md) |
 | | [Reading: Class 13](./Reading_Class_13.md) |
+| Week 6 | [Reading: Class 14](./Reading_Class_14.md) |
 
 ---
