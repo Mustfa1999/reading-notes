@@ -32,5 +32,6 @@ A track for my observations and questions from the reading assignments throughou
 | Week 10 | [Reading: Class 26](./Reading_Class_26.md) |
 | | [Reading: Class 27](./Reading_Class_27.md) |
 | | [Reading: Class 28](./Reading_Class_28.md) |
+| | [Reading: Class 29](./Reading_Class_29.md) |
 
 ---
