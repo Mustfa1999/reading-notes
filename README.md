@@ -35,5 +35,6 @@ A track for my observations and questions from the reading assignments throughou
 | | [Reading: Class 29](./Reading_Class_29.md) |
 | | [Reading: Class 30](./Reading_Class_30.md) |
 | Week 11 | [Reading: Class 31](./Reading_Class_31.md) |
+| | [Reading: Class 32](./Reading_Class_32.md) |
 
 ---
