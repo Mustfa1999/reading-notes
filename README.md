@@ -20,7 +20,6 @@ A track for my observations and questions from the reading assignments throughou
 | [Reading: Class 29](./Reading_Class_29.md) | [Reading: Class 30](./Reading_Class_30.md) | [Reading: Class 31](./Reading_Class_31.md) |
 | [Reading: Class 32](./Reading_Class_32.md) | [Reading: Class 33](./Reading_Class_33.md) | [Reading: Class 34](./Reading_Class_34.md) |
 | [Reading: Class 35](./Reading_Class_35.md) | [Reading: Class 36](./Reading_Class_36.md) | [Reading: Class 37](./Reading_Class_37.md) |
-| | | |
-
+| [Reading: Class 38](./Reading_Class_38.md) | | |
 
 ---
